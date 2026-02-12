@@ -2,7 +2,7 @@ import asyncio
 import aiosqlite
 from aiogram import Bot
 
-BOT_TOKEN = "ТУТ_ВСТАВ_СВІЙ_ТОКЕН"
+BOT_TOKEN = "8539494327:AAEs__HILnY3FupG7-M-DfyJdVWOoUT3sxs"
 bot = Bot(token=BOT_TOKEN)
 
 DB_NAME = "valentines.db"
@@ -35,3 +35,4 @@ async def send_all():
         await db.commit()
 
 asyncio.run(send_all())
+
